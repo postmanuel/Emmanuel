@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<StackPane id="bond" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="752.0" prefWidth="1240.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane id="border" prefHeight="200.0" prefWidth="200.0">
+         <left>
+            <AnchorPane id="menu" prefHeight="752.0" prefWidth="297.0" style="-fx-background-color: brown; -fx-background-size: 23;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text id="account" fx:id="account" accessibleRole="HYPERLINK" accessibleRoleDescription="hyperlink" fontSmoothingType="LCD" layoutX="14.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-cursor: hand; -fx-font-family: monospace;" text="ACCOUNT" textAlignment="CENTER" wrappingWidth="148.6708984375" x="2.0" y="2.0">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="28.0" />
+                     </font>
+                  </Text>
+                  <Text id="archived" fx:id="archived" accessibleRole="HYPERLINK" layoutX="26.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 22; -fx-font-family: MONOSPACE;" text="ARCHIVED" wrappingWidth="152.9830722808838">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Text>
+                  <Text fx:id="offers" accessibleRole="HYPERLINK" layoutX="26.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: monospace; -fx-font-size: 24;" text="OFFERS" wrappingWidth="123.98307228088379" />
+                  <Text id="feedback" fx:id="feedback" accessibleRole="HYPERLINK" layoutX="12.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: monospace; -fx-font-size: 25;" text=" FEEDBACK" wrappingWidth="150.9830722808838" />
+                  <Text id="payment" fx:id="payment" accessibleRole="HYPERLINK" layoutX="18.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: monospace; -fx-font-size: 26;" text="PAYMENT" wrappingWidth="139.9830722808838" />
+                  <Text id="notification" fx:id="notification" layoutX="26.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: monospace; -fx-font-size: 20; -fx-font: bold;" text="NOTIFICATION" wrappingWidth="148.9830722808838" />
+                  <Text id="settings" fx:id="settings" layoutX="19.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: monospace; -fx-font-size: 23;" text="SETTINGS" wrappingWidth="137.9830722808838" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </AnchorPane>
+         </left>
+      </BorderPane>
+   </children>
+</StackPane>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<StackPane id="stack" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.0" prefWidth="922.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane id="amchor" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane id="dashboard" layoutY="-1.0" prefHeight="591.0" prefWidth="317.0" style="-fx-background-color: violet;" />
+            <AnchorPane id="canvas" layoutX="317.0" layoutY="-1.0" prefHeight="591.0" prefWidth="604.0" style="-fx-background-color: lightblue;">
+               <children>
+                  <TextField id="loginform" layoutX="137.0" layoutY="27.0" prefHeight="58.0" prefWidth="242.0" promptText="LOGIN  FORM" style="-fx-background-color: BLUE;" text="LOGIN  FORM">
+                     <font>
+                        <Font name="Bell MT Bold" size="28.0" />
+                     </font>
+                  </TextField>
+                  <Text id="message" layoutX="68.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="392.6708984375">
+                     <font>
+                        <Font name="Castellar" size="31.0" />
+                     </font>
+                  </Text>
+                  <TextField id="firstname" alignment="CENTER" layoutX="74.0" layoutY="157.0" prefHeight="58.0" prefWidth="381.0" promptText="FIRST NAME" style="-fx-background-color: BLUE; -fx-font: bold;">
+                     <font>
+                        <Font name="Castellar" size="34.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets bottom="5.0" left="9.0" right="5.0" top="6.0" />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField id="lastname" alignment="CENTER" layoutX="74.0" layoutY="248.0" prefHeight="69.0" prefWidth="381.0" promptText="LAST NAME" style="-fx-background-color: BLUE;">
+                     <font>
+                        <Font name="Castellar" size="35.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField id="phone" alignment="CENTER" layoutX="74.0" layoutY="341.0" prefHeight="58.0" prefWidth="381.0" promptText="PHONE" style="-fx-background-color: BLUE;">
+                     <font>
+                        <Font name="Castellar" size="29.0" />
+                     </font>
+                  </TextField>
+                  <PasswordField alignment="CENTER" layoutX="75.0" layoutY="425.0" prefHeight="58.0" prefWidth="381.0" promptText="PASSWORD" style="-fx-background-color: BLUE;">
+                     <font>
+                        <Font name="Castellar" size="33.0" />
+                     </font>
+                  </PasswordField>
+                  <Button id="OK" layoutX="220.0" layoutY="529.0" mnemonicParsing="false" onAction="#btnOKOnclicked" prefHeight="49.0" prefWidth="98.0" style="-fx-background-color: blue;" text="OK">
+                     <font>
+                        <Font name="Colonna MT" size="30.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
